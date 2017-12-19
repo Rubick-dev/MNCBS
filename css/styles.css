@@ -1,0 +1,175 @@
+/* --------------------- Standard Element Selectors ----------------------------- */
+
+body {
+	background: no-repeat center url("../img/background.png");
+	background-size: cover;
+	background-position: center;
+}
+
+h1,
+h2 {
+	font-family: 'Love Ya Like A Sister', cursive;
+	margin-bottom: 20px;
+}
+
+footer {
+	text-align: center;
+}
+
+ul,
+li {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	line-height: 1.6em;
+}
+
+/* ------------------------------ Class Selectors ---------------------------------*/
+
+.dolphin {
+	border-radius: 50%;
+}
+
+.dolphin:hover {
+	cursor: default;
+    transform: rotate(360deg);
+    transition: all 0.6s ease-in-out 0s;
+}
+
+.removebullet {
+	list-style-type: none;
+}
+
+.babysitting-info {
+	margin: 30px auto;
+		justify-content: center;
+	text-align: center;
+	width:80%;
+}
+
+.pacbay-info {
+	margin: auto;
+	justify-content: center;
+	text-align: center;
+	width: 80%;
+}
+
+
+/* ------------------------- Hand Art ----------------------------------------*/
+
+.hand1 {
+	margin-left: 50px;
+	margin-bottom: 50px;
+	transform: rotate(45deg)
+}
+
+.hand2 {
+	transform: rotate(65deg)	
+}
+
+.hand3 {
+	margin-left: 15px;
+	transform: rotate(305deg)
+}
+
+.hand4 {
+	margin-left: 10px;
+	margin-bottom: 50px;
+	transform: rotate(335deg)
+}
+
+.hand5 {
+	margin-left: 100px;
+	margin-bottom: 50px;
+	transform: rotate(135deg)
+}
+
+.hand6 {
+	margin-left: 10px;
+	transform: rotate(350deg)
+}
+
+.hand7 {
+	margin-left: 60px;
+	margin-bottom: 50px;
+	transform: rotate(265deg)
+}
+
+.hand8 {
+	margin-left: 40px;
+	margin-bottom: 50px;
+	transform: rotate(35deg)
+}
+
+.hand9 {
+	margin-left: 100px;
+	transform: rotate(85deg)
+}
+
+/* --------------------------- Column arrangments / Flexbox --------------------- */
+.col-lg-6 {
+	justify-content: center;
+	margin-bottom: 50px;
+	align-content: center;
+}
+
+.info-groups {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+
+/* -------------------------- Heading CSS -------------------------- */
+.display-1 {
+	font-family: 'Love Ya Like A Sister', cursive;
+	margin-bottom: 10px;
+	font-size: 2.8rem;
+	margin-top: 30px;
+}
+
+.lead {
+	font-family: 'Gloria Hallelujah', cursive;
+	padding-top: 5px;
+	font-size: 1.0rem;
+	margin-top: 50px;
+}
+
+
+
+/*  ---------------------- MEDIA QUERRIES ----------------------------------- */
+@media screen and (min-width:480px) {
+	.display-1 {
+		font-size: 5rem;
+	}
+
+	#leadtag {
+		font-size: 2.0rem;
+	}
+
+	.info-groups {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+}
+
+}
+
+
+@media screen and (min-width: 1040px) {
+	.display-1 {
+		font-size: 6rem;
+	}
+
+	#leadtag {
+		font-size: 2.5rem;
+	}
+
+	.info-groups {
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: row;
+}
+
