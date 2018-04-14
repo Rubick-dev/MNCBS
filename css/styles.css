@@ -44,7 +44,7 @@ p {
 
 .babysitting-info {
 	margin: 30px auto;
-		justify-content: center;
+	justify-content: center;
 	text-align: center;
 	width:80%;
 }
@@ -171,5 +171,5 @@ p {
 		display: flex;
 		flex-wrap: nowrap;
 		flex-direction: row;
+	}
 }
-
