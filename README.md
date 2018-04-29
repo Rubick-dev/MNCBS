@@ -8,7 +8,8 @@ This app was my first ever app that I built for commercial reasons. The business
    
 ### The Code / Tools used  
 1. HTML5 & CSS3  
-2. Bootstrap(CSS)  
+2. Bootstrap(CSS)
+3. Node.js - used as build tools for deployment
    
 ### Versions  
 1.0 - Use of media queries for responsive and mobile first design  
